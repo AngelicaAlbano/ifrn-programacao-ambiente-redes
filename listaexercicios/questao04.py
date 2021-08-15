@@ -31,16 +31,19 @@ class Macaco:
 
 macaco1 = Macaco('Julia')
 macaco2 = Macaco('George')
+
 print('\nAlimentando Julia')
 print(20*'-')
 macaco1.comer('Banana')
 macaco1.comer('Pêra')
 macaco1.comer('Côco')
+
 print('\nAlimentando George')
 print(20*'-')
 macaco2.comer('Uva')
 macaco2.comer('Abacate')
 macaco2.comer('Mamão')
+
 print('\nTentando canibalismo')
 print(30*'-')
 macaco1.comer(macaco2)

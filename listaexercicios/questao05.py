@@ -31,5 +31,5 @@ fusca = Carro()
 print(fusca.adicionar_gasolina(20))
 print(fusca.obter_gasolina())
 print(fusca.andar(100)) 
-print(fusca.andar(301)) # testar validação - 
+print(fusca.andar(301)) # testar validação - quando o combustível não é suficiente pro percurso
 print(fusca.obter_gasolina())
