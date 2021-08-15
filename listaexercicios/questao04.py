@@ -5,6 +5,7 @@
 # criar um macaco canibal?
 
 class Macaco:
+    
     def comer(self, comida):
         if(type(comida) != Macaco):
             self.bucho.append(comida)
