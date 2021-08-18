@@ -4,7 +4,8 @@ class Carro:
     
     def andar(self, distancia):
         if(distancia >= self.consumo):
-            print('Não temos combustível suficiente para esse percurso.')
+            print('consumo',self.consumo)
+            print('Não temos combustível suficiente pra esse percurso.')
             return False
         for km in range(1,distancia+1):
             distancia-=1
@@ -20,7 +21,8 @@ class Carro:
         return True
     
     def obter_gasolina(self):
-        print('Nível de combustível')
+        #retorna nivel atual de combustivel
+        print('Nível de combustivel')
         return self.nivelCombustivel
     
     def __init__(self):
