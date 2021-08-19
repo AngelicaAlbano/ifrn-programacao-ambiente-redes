@@ -16,7 +16,7 @@ Situação                        Quantidade              Percentual
 4- quebrado ou inutilizado              15                     15%
 '''
 
-quantidadeMouse = 0
+#indice 1 = tipoSituaçao | indice 2 quantidade
 situacao = [['necessita da esfera',0],['necessita de limpeza',0],['necessita troca do cabo ou conector',0],['quebrado ou inutilizado',0]]
 
 total =0
@@ -55,9 +55,9 @@ def main():
     
     print('\nSituação do mouse.                      | Quantidade | % Percentual |')
     print('1- Necessita da esfera                   ',situacao[0][1], '\t\t', situacao[0][1]/total *100)
-    print('2- Necessita de limpeza                  ',situacao[1][1], '\t\t', situacao[0][1]/total *100)
-    print('3- Necessita troca do cabo ou conector   ',situacao[2][1], '\t\t', situacao[0][1]/total *100)
-    print('4- Quebrado ou inutilizado               ',situacao[3][1], '\t\t', situacao[0][1]/total *100)
+    print('2- Necessita de limpeza                  ',situacao[1][1], '\t\t', situacao[1][1]/total *100)
+    print('3- Necessita troca do cabo ou conector   ',situacao[2][1], '\t\t', situacao[2][1]/total *100)
+    print('4- Quebrado ou inutilizado               ',situacao[3][1], '\t\t', situacao[3][1]/total *100)
     print('\nTotal                                    ',total)
 
 
